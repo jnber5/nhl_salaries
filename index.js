@@ -1,46 +1,57 @@
 let axios = require('axios');
 let cheerio = require('cheerio');
+let equipes = require('./equipes');
+let fs = require('fs');
 
-let base_url = 'https://capfriendly.com/teams/ducks';
+let base_url = '';
 
 let joueurs = [];
 
-axios.get(base_url).then(response => {
-  let $ = cheerio.load(response.data);
+async function main() {
+  for (let equipe of equipes) {
+    base_url = equipe.url;
 
-  $('#team').each((i, elm) => {
-    extraireTablePrincipale(elm);
-  });
-});
+    await axios.get(base_url).then(response => {
+      let $ = cheerio.load(response.data);
 
-function extraireTablePrincipale(elm) {
+      $('#team').each((i, elm) => {
+        extraireTablePrincipale(elm, equipe.nom);
+      });
+    });
+  }
+
+  let json = JSON.stringify(joueurs);
+
+  fs.writeFile('joueurs-actifs.json', json, 'utf8');
+
+  console.log(joueurs.length);
+}
+
+function extraireTablePrincipale(elm, equipe) {
   let $ = cheerio.load(elm);
 
   $('tbody').each((i, elm) => {
     let identifiant = $(elm).children().children().first().text();
 
     if (identifiant.includes('FORWARDS')) {
-      extraireJoueurs(elm);
+      extraireJoueurs(elm, equipe);
     }
 
     if (identifiant.includes('DEFENSE')) {
-      extraireJoueurs(elm);
+      extraireJoueurs(elm, equipe);
     }
 
     if (identifiant.includes('GOALTENDERS')) {
-      extraireJoueurs(elm);
+      extraireJoueurs(elm, equipe);
     }
 
     if (identifiant.includes('NON-ROSTER PLAYERS')) {
-      extraireNonRosterPlayers(elm);
+      extraireNonRosterPlayers(elm, equipe);
     }
   });
-
-  console.log(joueurs);
-  console.log(joueurs.length);
 }
 
-function extraireJoueurs(elm) {
+function extraireJoueurs(elm, equipe) {
   let $ = cheerio.load(elm);
 
   $('tr').each((i, elm) => {
@@ -48,6 +59,7 @@ function extraireJoueurs(elm) {
       joueurs.push({
         nom: extraireNom($(elm).children().first().text()),
         prenom: extrairePrenom($(elm).children().first().text()),
+        equipe: equipe,
         position: determinerPosition($(elm).children().eq(2).first().text()),
         age: $(elm).children().eq(4).first().text(),
         caphit: determinerCapHit($(elm).children().eq(5).first().children().first().text()),
@@ -61,7 +73,7 @@ function extraireDefenseurs(elm) {}
 
 function extraireGardiens(elm) {}
 
-function extraireNonRosterPlayers(elm) {
+function extraireNonRosterPlayers(elm, equipe) {
   let $ = cheerio.load(elm);
 
   $('tr').each((i, elm) => {
@@ -69,6 +81,7 @@ function extraireNonRosterPlayers(elm) {
       joueurs.push({
         nom: extraireNom($(elm).children().first().text()),
         prenom: extrairePrenom($(elm).children().first().text()),
+        equipe: equipe,
         position: determinerPosition($(elm).children().eq(2).first().text()),
         age: $(elm).children().eq(4).first().text(),
         caphit: determinerCapHit($(elm).children().eq(5).first().children().first().text()),
@@ -83,7 +96,6 @@ function extraireNom(str) {
 }
 
 function extrairePrenom(str) {
-  console.log(str);
   return str.split(', ')[1].replace('"A"', '').replace('"C"', '').replace(' ', '');
 }
 
@@ -110,3 +122,5 @@ function determinerCapHit(str) {
 function extraireUrl(url) {
   return 'https://capfriendly.com' + url;
 }
+
+main();

@@ -1,0 +1,1073 @@
+[
+  {
+    "nom": "Iginla",
+    "prenom": "Jarome",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "40",
+    "caphit": "5333333",
+    "capFriendlyUrl": "https://capfriendly.com/players/jarome-iginla"
+  },
+  {
+    "nom": "Wideman",
+    "prenom": "Dennis",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "34",
+    "caphit": "5250000",
+    "capFriendlyUrl": "https://capfriendly.com/players/dennis-wideman"
+  },
+  {
+    "nom": "Laich",
+    "prenom": "Brooks",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "34",
+    "caphit": "4500000",
+    "capFriendlyUrl": "https://capfriendly.com/players/brooks-laich"
+  },
+  {
+    "nom": "Gionta",
+    "prenom": "Brian",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "38",
+    "caphit": "4250000",
+    "capFriendlyUrl": "https://capfriendly.com/players/brian-gionta"
+  },
+  {
+    "nom": "Michalek",
+    "prenom": "Milan",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "32",
+    "caphit": "4000000",
+    "capFriendlyUrl": "https://capfriendly.com/players/milan-michalek"
+  },
+  {
+    "nom": "Jagr",
+    "prenom": "Jaromir",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "45",
+    "caphit": "4000000",
+    "capFriendlyUrl": "https://capfriendly.com/players/jaromir-jagr"
+  },
+  {
+    "nom": "Doan",
+    "prenom": "Shane",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "40",
+    "caphit": "3876134",
+    "capFriendlyUrl": "https://capfriendly.com/players/shane-doan"
+  },
+  {
+    "nom": "Ribeiro",
+    "prenom": "Mike",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "37",
+    "caphit": "3500000",
+    "capFriendlyUrl": "https://capfriendly.com/players/mike-ribeiro"
+  },
+  {
+    "nom": "Scuderi",
+    "prenom": "Rob",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "38",
+    "caphit": "3375000",
+    "capFriendlyUrl": "https://capfriendly.com/players/rob-scuderi"
+  },
+  {
+    "nom": "Franson",
+    "prenom": "Cody",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "30",
+    "caphit": "3325000",
+    "capFriendlyUrl": "https://capfriendly.com/players/cody-franson"
+  },
+  {
+    "nom": "Michalek",
+    "prenom": "Zbynek",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "34",
+    "caphit": "3200000",
+    "capFriendlyUrl": "https://capfriendly.com/players/zbynek-michalek"
+  },
+  {
+    "nom": "Vanek",
+    "prenom": "Thomas",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "33",
+    "caphit": "2600000",
+    "capFriendlyUrl": "https://capfriendly.com/players/thomas-vanek"
+  },
+  {
+    "nom": "Kindl",
+    "prenom": "Jakub",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "30",
+    "caphit": "2400000",
+    "capFriendlyUrl": "https://capfriendly.com/players/jakub-kindl"
+  },
+  {
+    "nom": "Winnik",
+    "prenom": "Daniel",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "32",
+    "caphit": "2250000",
+    "capFriendlyUrl": "https://capfriendly.com/players/daniel-winnik"
+  },
+  {
+    "nom": "Polak",
+    "prenom": "Roman",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "31",
+    "caphit": "2250000",
+    "capFriendlyUrl": "https://capfriendly.com/players/roman-polak"
+  },
+  {
+    "nom": "Schultz",
+    "prenom": "Nick",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "35",
+    "caphit": "2250000",
+    "capFriendlyUrl": "https://capfriendly.com/players/nick-schultz"
+  },
+  {
+    "nom": "Foligno",
+    "prenom": "Marcus",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "26",
+    "caphit": "2250000",
+    "capFriendlyUrl": "https://capfriendly.com/players/marcus-foligno"
+  },
+  {
+    "nom": "Hudler",
+    "prenom": "Jiri",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "33",
+    "caphit": "2000000",
+    "capFriendlyUrl": "https://capfriendly.com/players/jiri-hudler"
+  },
+  {
+    "nom": "Tyutin",
+    "prenom": "Fedor",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "34",
+    "caphit": "2000000",
+    "capFriendlyUrl": "https://capfriendly.com/players/fedor-tyutin"
+  },
+  {
+    "nom": "Liles",
+    "prenom": "John-Michael",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "36",
+    "caphit": "2000000",
+    "capFriendlyUrl": "https://capfriendly.com/players/john-michael-liles"
+  },
+  {
+    "nom": "Mitchell",
+    "prenom": "John",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "32",
+    "caphit": "1800000",
+    "capFriendlyUrl": "https://capfriendly.com/players/john-mitchell"
+  },
+  {
+    "nom": "Purcell",
+    "prenom": "Teddy",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "31",
+    "caphit": "1600000",
+    "capFriendlyUrl": "https://capfriendly.com/players/teddy-purcell"
+  },
+  {
+    "nom": "Gelinas",
+    "prenom": "Eric",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "26",
+    "caphit": "1575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/eric-gelinas"
+  },
+  {
+    "nom": "Neil",
+    "prenom": "Chris",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "38",
+    "caphit": "1500000",
+    "capFriendlyUrl": "https://capfriendly.com/players/chris-neil"
+  },
+  {
+    "nom": "Glass",
+    "prenom": "Tanner",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "33",
+    "caphit": "1450000",
+    "capFriendlyUrl": "https://capfriendly.com/players/tanner-glass"
+  },
+  {
+    "nom": "Fiddler",
+    "prenom": "Vernon",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "37",
+    "caphit": "1250000",
+    "capFriendlyUrl": "https://capfriendly.com/players/vernon-fiddler"
+  },
+  {
+    "nom": "Parenteau",
+    "prenom": "Pierre-Alexandre",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "34",
+    "caphit": "1250000",
+    "capFriendlyUrl": "https://capfriendly.com/players/pierre-alexandre-parenteau"
+  },
+  {
+    "nom": "McClement",
+    "prenom": "Jay",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "34",
+    "caphit": "1200000",
+    "capFriendlyUrl": "https://capfriendly.com/players/jay-mcclement"
+  },
+  {
+    "nom": "Vitale",
+    "prenom": "Joe",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "32",
+    "caphit": "1116667",
+    "capFriendlyUrl": "https://capfriendly.com/players/joe-vitale"
+  },
+  {
+    "nom": "Pirri",
+    "prenom": "Brandon",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "26",
+    "caphit": "1100000",
+    "capFriendlyUrl": "https://capfriendly.com/players/brandon-pirri"
+  },
+  {
+    "nom": "Miller",
+    "prenom": "Drew",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "33",
+    "caphit": "1025000",
+    "capFriendlyUrl": "https://capfriendly.com/players/drew-miller"
+  },
+  {
+    "nom": "Korpikoski",
+    "prenom": "Lauri",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "31",
+    "caphit": "1000000",
+    "capFriendlyUrl": "https://capfriendly.com/players/lauri-korpikoski"
+  },
+  {
+    "nom": "White",
+    "prenom": "Ryan",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "29",
+    "caphit": "1000000",
+    "capFriendlyUrl": "https://capfriendly.com/players/ryan-white"
+  },
+  {
+    "nom": "Weber",
+    "prenom": "Mike",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "29",
+    "caphit": "1000000",
+    "capFriendlyUrl": "https://capfriendly.com/players/mike-weber"
+  },
+  {
+    "nom": "Gordon",
+    "prenom": "Boyd",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "33",
+    "caphit": "950000",
+    "capFriendlyUrl": "https://capfriendly.com/players/boyd-gordon"
+  },
+  {
+    "nom": "Bennett",
+    "prenom": "Sam",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "21",
+    "caphit": "925000",
+    "capFriendlyUrl": "https://capfriendly.com/players/sam-bennett"
+  },
+  {
+    "nom": "Wennberg",
+    "prenom": "Alexander",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "22",
+    "caphit": "925000",
+    "capFriendlyUrl": "https://capfriendly.com/players/alexander-wennberg"
+  },
+  {
+    "nom": "Pastrnak",
+    "prenom": "David",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "21",
+    "caphit": "925000",
+    "capFriendlyUrl": "https://capfriendly.com/players/david-pastrnak"
+  },
+  {
+    "nom": "Williams",
+    "prenom": "Stephon",
+    "equipe": "UFA",
+    "position": "G",
+    "age": "24",
+    "caphit": "925000",
+    "capFriendlyUrl": "https://capfriendly.com/players/stephon-williams"
+  },
+  {
+    "nom": "Armalis",
+    "prenom": "Mantas",
+    "equipe": "UFA",
+    "position": "G",
+    "age": "24",
+    "caphit": "925000",
+    "capFriendlyUrl": "https://capfriendly.com/players/mantas-armalis"
+  },
+  {
+    "nom": "Jokipakka",
+    "prenom": "Jyrki",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "26",
+    "caphit": "900000",
+    "capFriendlyUrl": "https://capfriendly.com/players/jyrki-jokipakka"
+  },
+  {
+    "nom": "Upshall",
+    "prenom": "Scottie",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "33",
+    "caphit": "900000",
+    "capFriendlyUrl": "https://capfriendly.com/players/scottie-upshall"
+  },
+  {
+    "nom": "Kelly",
+    "prenom": "Chris",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "36",
+    "caphit": "900000",
+    "capFriendlyUrl": "https://capfriendly.com/players/chris-kelly"
+  },
+  {
+    "nom": "Zadorov",
+    "prenom": "Nikita",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "22",
+    "caphit": "894167",
+    "capFriendlyUrl": "https://capfriendly.com/players/nikita-zadorov"
+  },
+  {
+    "nom": "Samuelsson",
+    "prenom": "Henrik",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "23",
+    "caphit": "894167",
+    "capFriendlyUrl": "https://capfriendly.com/players/henrik-samuelsson"
+  },
+  {
+    "nom": "Horvat",
+    "prenom": "Bo",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "22",
+    "caphit": "894167",
+    "capFriendlyUrl": "https://capfriendly.com/players/bo-horvat"
+  },
+  {
+    "nom": "Bailey",
+    "prenom": "Casey",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "25",
+    "caphit": "874125",
+    "capFriendlyUrl": "https://capfriendly.com/players/casey-bailey"
+  },
+  {
+    "nom": "Chiasson",
+    "prenom": "Alex",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "26",
+    "caphit": "800000",
+    "capFriendlyUrl": "https://capfriendly.com/players/alex-chiasson"
+  },
+  {
+    "nom": "Desjardins",
+    "prenom": "Andrew",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "31",
+    "caphit": "800000",
+    "capFriendlyUrl": "https://capfriendly.com/players/andrew-desjardins"
+  },
+  {
+    "nom": "Kostka",
+    "prenom": "Michael",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "31",
+    "caphit": "800000",
+    "capFriendlyUrl": "https://capfriendly.com/players/michael-kostka"
+  },
+  {
+    "nom": "Holmstrom",
+    "prenom": "Ben",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "30",
+    "caphit": "800000",
+    "capFriendlyUrl": "https://capfriendly.com/players/ben-holmstrom"
+  },
+  {
+    "nom": "McNally",
+    "prenom": "Patrick",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "25",
+    "caphit": "800000",
+    "capFriendlyUrl": "https://capfriendly.com/players/patrick-mcnally"
+  },
+  {
+    "nom": "Duclair",
+    "prenom": "Anthony",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "22",
+    "caphit": "772500",
+    "capFriendlyUrl": "https://capfriendly.com/players/anthony-duclair"
+  },
+  {
+    "nom": "Goloubef",
+    "prenom": "Cody",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "27",
+    "caphit": "750000",
+    "capFriendlyUrl": "https://capfriendly.com/players/cody-goloubef"
+  },
+  {
+    "nom": "Gallant",
+    "prenom": "Brett",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "28",
+    "caphit": "750000",
+    "capFriendlyUrl": "https://capfriendly.com/players/brett-gallant"
+  },
+  {
+    "nom": "Blujus",
+    "prenom": "Dylan",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "23",
+    "caphit": "742500",
+    "capFriendlyUrl": "https://capfriendly.com/players/dylan-blujus"
+  },
+  {
+    "nom": "Altshuller",
+    "prenom": "Daniel",
+    "equipe": "UFA",
+    "position": "G",
+    "age": "23",
+    "caphit": "728333",
+    "capFriendlyUrl": "https://capfriendly.com/players/daniel-altshuller"
+  },
+  {
+    "nom": "Cramarossa",
+    "prenom": "Joseph",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "24",
+    "caphit": "724500",
+    "capFriendlyUrl": "https://capfriendly.com/players/joseph-cramarossa"
+  },
+  {
+    "nom": "Kosmachuk",
+    "prenom": "Scott",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "23",
+    "caphit": "720000",
+    "capFriendlyUrl": "https://capfriendly.com/players/scott-kosmachuk"
+  },
+  {
+    "nom": "VandeVelde",
+    "prenom": "Chris",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "30",
+    "caphit": "712500",
+    "capFriendlyUrl": "https://capfriendly.com/players/chris-vandevelde"
+  },
+  {
+    "nom": "Skille",
+    "prenom": "Jack",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "30",
+    "caphit": "700000",
+    "capFriendlyUrl": "https://capfriendly.com/players/jack-skille"
+  },
+  {
+    "nom": "Donnay",
+    "prenom": "Troy",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "23",
+    "caphit": "686667",
+    "capFriendlyUrl": "https://capfriendly.com/players/troy-donnay"
+  },
+  {
+    "nom": "Hodges",
+    "prenom": "Steven",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "23",
+    "caphit": "685000",
+    "capFriendlyUrl": "https://capfriendly.com/players/steven-hodges"
+  },
+  {
+    "nom": "Russo",
+    "prenom": "Robbie",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "24",
+    "caphit": "680000",
+    "capFriendlyUrl": "https://capfriendly.com/players/robbie-russo"
+  },
+  {
+    "nom": "Anderson",
+    "prenom": "Josh",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "23",
+    "caphit": "678333",
+    "capFriendlyUrl": "https://capfriendly.com/players/josh-anderson"
+  },
+  {
+    "nom": "Lowry",
+    "prenom": "Joel",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "25",
+    "caphit": "675000",
+    "capFriendlyUrl": "https://capfriendly.com/players/joel-lowry"
+  },
+  {
+    "nom": "Valleau",
+    "prenom": "Nolan",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "24",
+    "caphit": "667500",
+    "capFriendlyUrl": "https://capfriendly.com/players/nolan-valleau"
+  },
+  {
+    "nom": "MacMillan",
+    "prenom": "Mark",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "25",
+    "caphit": "665000",
+    "capFriendlyUrl": "https://capfriendly.com/players/mark-macmillan"
+  },
+  {
+    "nom": "Skapski",
+    "prenom": "Mackenzie",
+    "equipe": "UFA",
+    "position": "G",
+    "age": "23",
+    "caphit": "663333",
+    "capFriendlyUrl": "https://capfriendly.com/players/mackenzie-skapski"
+  },
+  {
+    "nom": "Pochiro",
+    "prenom": "Zachary",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "23",
+    "caphit": "663333",
+    "capFriendlyUrl": "https://capfriendly.com/players/zachary-pochiro"
+  },
+  {
+    "nom": "Racine",
+    "prenom": "Jonathan",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "24",
+    "caphit": "660000",
+    "capFriendlyUrl": "https://capfriendly.com/players/jonathan-racine"
+  },
+  {
+    "nom": "Kulak",
+    "prenom": "Brett",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "23",
+    "caphit": "656667",
+    "capFriendlyUrl": "https://capfriendly.com/players/brett-kulak"
+  },
+  {
+    "nom": "Dupuy",
+    "prenom": "Jean",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "22",
+    "caphit": "653333",
+    "capFriendlyUrl": "https://capfriendly.com/players/jean-dupuy"
+  },
+  {
+    "nom": "Bourque",
+    "prenom": "Rene",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "35",
+    "caphit": "650000",
+    "capFriendlyUrl": "https://capfriendly.com/players/rene-bourque"
+  },
+  {
+    "nom": "Gormley",
+    "prenom": "Brandon",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "25",
+    "caphit": "650000",
+    "capFriendlyUrl": "https://capfriendly.com/players/brandon-gormley"
+  },
+  {
+    "nom": "Black",
+    "prenom": "Graham",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "24",
+    "caphit": "650000",
+    "capFriendlyUrl": "https://capfriendly.com/players/graham-black"
+  },
+  {
+    "nom": "Woods",
+    "prenom": "Brendan",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "25",
+    "caphit": "650000",
+    "capFriendlyUrl": "https://capfriendly.com/players/brendan-woods"
+  },
+  {
+    "nom": "Bartley",
+    "prenom": "Victor",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "29",
+    "caphit": "650000",
+    "capFriendlyUrl": "https://capfriendly.com/players/victor-bartley"
+  },
+  {
+    "nom": "Harper",
+    "prenom": "Shane",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "28",
+    "caphit": "650000",
+    "capFriendlyUrl": "https://capfriendly.com/players/shane-harper"
+  },
+  {
+    "nom": "Lindbohm",
+    "prenom": "Petteri",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "23",
+    "caphit": "636667",
+    "capFriendlyUrl": "https://capfriendly.com/players/petteri-lindbohm"
+  },
+  {
+    "nom": "Troock",
+    "prenom": "Branden",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "23",
+    "caphit": "636666",
+    "capFriendlyUrl": "https://capfriendly.com/players/branden-troock"
+  },
+  {
+    "nom": "Gunnarsson",
+    "prenom": "Jonas",
+    "equipe": "UFA",
+    "position": "G",
+    "age": "25",
+    "caphit": "635000",
+    "capFriendlyUrl": "https://capfriendly.com/players/jonas-gunnarsson"
+  },
+  {
+    "nom": "Fournier",
+    "prenom": "Stefan",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "25",
+    "caphit": "632500",
+    "capFriendlyUrl": "https://capfriendly.com/players/stefan-fournier"
+  },
+  {
+    "nom": "Bourke",
+    "prenom": "Troy",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "23",
+    "caphit": "631666",
+    "capFriendlyUrl": "https://capfriendly.com/players/troy-bourke"
+  },
+  {
+    "nom": "Athanasiou",
+    "prenom": "Andreas",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "23",
+    "caphit": "628333",
+    "capFriendlyUrl": "https://capfriendly.com/players/andreas-athanasiou"
+  },
+  {
+    "nom": "Austin",
+    "prenom": "Brady",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "24",
+    "caphit": "626666",
+    "capFriendlyUrl": "https://capfriendly.com/players/brady-austin"
+  },
+  {
+    "nom": "Helgesen",
+    "prenom": "Kenton",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "23",
+    "caphit": "626666",
+    "capFriendlyUrl": "https://capfriendly.com/players/kenton-helgesen"
+  },
+  {
+    "nom": "Wotherspoon",
+    "prenom": "Tyler",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "24",
+    "caphit": "625000",
+    "capFriendlyUrl": "https://capfriendly.com/players/tyler-wotherspoon"
+  },
+  {
+    "nom": "Olsen",
+    "prenom": "Ryan",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "23",
+    "caphit": "616667",
+    "capFriendlyUrl": "https://capfriendly.com/players/ryan-olsen"
+  },
+  {
+    "nom": "Leduc",
+    "prenom": "Loic",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "23",
+    "caphit": "615000",
+    "capFriendlyUrl": "https://capfriendly.com/players/loic-leduc"
+  },
+  {
+    "nom": "Kiviaho",
+    "prenom": "Henri",
+    "equipe": "UFA",
+    "position": "G",
+    "age": "23",
+    "caphit": "611666",
+    "capFriendlyUrl": "https://capfriendly.com/players/henri-kiviaho"
+  },
+  {
+    "nom": "Severson",
+    "prenom": "Damon",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "23",
+    "caphit": "605833",
+    "capFriendlyUrl": "https://capfriendly.com/players/damon-severson"
+  },
+  {
+    "nom": "Hagel",
+    "prenom": "Marc",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "28",
+    "caphit": "605000",
+    "capFriendlyUrl": "https://capfriendly.com/players/marc-hagel"
+  },
+  {
+    "nom": "Ross",
+    "prenom": "Garret",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "25",
+    "caphit": "600000",
+    "capFriendlyUrl": "https://capfriendly.com/players/garret-ross"
+  },
+  {
+    "nom": "Guenin",
+    "prenom": "Nate",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "34",
+    "caphit": "600000",
+    "capFriendlyUrl": "https://capfriendly.com/players/nate-guenin"
+  },
+  {
+    "nom": "Hackett",
+    "prenom": "Matt",
+    "equipe": "UFA",
+    "position": "G",
+    "age": "27",
+    "caphit": "600000",
+    "capFriendlyUrl": "https://capfriendly.com/players/matt-hackett"
+  },
+  {
+    "nom": "Whitney",
+    "prenom": "Joe",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "29",
+    "caphit": "600000",
+    "capFriendlyUrl": "https://capfriendly.com/players/joe-whitney"
+  },
+  {
+    "nom": "O'Brien",
+    "prenom": "Jim",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "28",
+    "caphit": "600000",
+    "capFriendlyUrl": "https://capfriendly.com/players/jim-obrien"
+  },
+  {
+    "nom": "Stevenson",
+    "prenom": "Dustin",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "28",
+    "caphit": "600000",
+    "capFriendlyUrl": "https://capfriendly.com/players/dustin-stevenson"
+  },
+  {
+    "nom": "Henley",
+    "prenom": "Samuel",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "24",
+    "caphit": "586666",
+    "capFriendlyUrl": "https://capfriendly.com/players/samuel-henley"
+  },
+  {
+    "nom": "Abbott",
+    "prenom": "Spencer",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "29",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/spencer-abbott"
+  },
+  {
+    "nom": "Caron",
+    "prenom": "Jordan",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "26",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/jordan-caron"
+  },
+  {
+    "nom": "Erixon",
+    "prenom": "Tim",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "26",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/tim-erixon"
+  },
+  {
+    "nom": "Pardy",
+    "prenom": "Adam",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "33",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/adam-pardy"
+  },
+  {
+    "nom": "Farnham",
+    "prenom": "Bobby",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "28",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/bobby-farnham"
+  },
+  {
+    "nom": "Payerl",
+    "prenom": "Adam",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "26",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/adam-payerl"
+  },
+  {
+    "nom": "Percy",
+    "prenom": "Stuart",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "24",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/stuart-percy"
+  },
+  {
+    "nom": "Faragher",
+    "prenom": "Ryan",
+    "equipe": "UFA",
+    "position": "G",
+    "age": "27",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/ryan-faragher"
+  },
+  {
+    "nom": "Carruth",
+    "prenom": "Mac",
+    "equipe": "UFA",
+    "position": "G",
+    "age": "25",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/mac-carruth"
+  },
+  {
+    "nom": "Mashinter",
+    "prenom": "Brandon",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "28",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/brandon-mashinter"
+  },
+  {
+    "nom": "Boulton",
+    "prenom": "Eric",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "41",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/eric-boulton"
+  },
+  {
+    "nom": "Carter",
+    "prenom": "Ryan",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "34",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/ryan-carter"
+  },
+  {
+    "nom": "Fraser",
+    "prenom": "Mark",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "30",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/mark-fraser"
+  },
+  {
+    "nom": "Kelly",
+    "prenom": "Dan",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "28",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/dan-kelly"
+  },
+  {
+    "nom": "Thomas",
+    "prenom": "Christian",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "25",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/christian-thomas"
+  },
+  {
+    "nom": "Halmo",
+    "prenom": "Mike",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "26",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/mike-halmo"
+  },
+  {
+    "nom": "Zolnierczyk",
+    "prenom": "Harry",
+    "equipe": "UFA",
+    "position": "A",
+    "age": "29",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/harry-zolnierczyk"
+  },
+  {
+    "nom": "Bergeron",
+    "prenom": "Marc-Andre",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "36",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/marc-andre-bergeron"
+  },
+  {
+    "nom": "Yevenko",
+    "prenom": "Oleg",
+    "equipe": "UFA",
+    "position": "D",
+    "age": "26",
+    "caphit": "575000",
+    "capFriendlyUrl": "https://capfriendly.com/players/oleg-yevenko"
+  }
+]

@@ -1,4 +1,4 @@
-[
+let equipes = [
   {
     nom: 'DUCKS',
     ville: 'ANAHEIM',
@@ -45,14 +45,9 @@
     url: 'https://capfriendly.com/teams/bluejackets'
   },
   {
-    nom: 'Ducks',
-    ville: 'Anaheim',
-    url: 'https://capfriendly.com/teams/stars'
-  },
-  {
     nom: 'STARS',
     ville: 'DALLAS',
-    url: 'https://capfriendly.com/teams/ducks'
+    url: 'https://capfriendly.com/teams/stars'
   },
   {
     nom: 'RED WINGS',
@@ -130,29 +125,35 @@
     url: 'https://capfriendly.com/teams/blues'
   },
   {
-    nom: 'Ducks',
-    ville: 'Anaheim',
+    nom: 'MAPLE LEAFS',
+    ville: 'TORONTO',
+    url: 'https://capfriendly.com/teams/mapleleafs'
+  },
+  {
+    nom: 'LIGHTNING',
+    ville: 'TAMPA BAY',
     url: 'https://capfriendly.com/teams/lightning'
   },
   {
-    nom: 'Ducks',
-    ville: 'Anaheim',
-    url: 'https://capfriendly.com/teams/ducks'
+    nom: 'CANUCKS',
+    ville: 'VANCOUVER',
+    url: 'https://capfriendly.com/teams/canucks'
   },
   {
-    nom: 'Ducks',
-    ville: 'Anaheim',
-    url: 'https://capfriendly.com/teams/ducks'
+    nom: 'GOLDEN KNIGHTS',
+    ville: 'VEGAS',
+    url: 'https://capfriendly.com/teams/goldenknights'
   },
   {
-    nom: 'Ducks',
-    ville: 'Anaheim',
-    url: 'https://capfriendly.com/teams/ducks'
+    nom: 'CAPITALS',
+    ville: 'WASHINGTON',
+    url: 'https://capfriendly.com/teams/capitals'
   },
   {
-    nom: 'Ducks',
-    ville: 'Anaheim',
-    url: 'https://capfriendly.com/teams/ducks'
+    nom: 'JETS',
+    ville: 'WINNIPEG',
+    url: 'https://capfriendly.com/teams/jets'
   }
+];
 
-]
+module.exports = equipes;
