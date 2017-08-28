@@ -19,10 +19,16 @@ for (let joueur of joueurs) {
   joueursRef.child(id).set({
     nom: joueur.nom,
     prenom: joueur.prenom,
-    equipe: joueur.equipe,
+    equipe: toTitleCase(joueur.equipe.toLowerCase()),
     position: joueur.position,
-    age: joueur.age,
-    caphit: joueur.caphit,
+    age: parseInt(joueur.age),
+    caphit: parseInt(joueur.caphit),
     capFriendlyUrl: joueur.capFriendlyUrl
+  });
+}
+
+function toTitleCase(str) {
+  return str.replace(/\w\S*/g, function(txt) {
+    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
   });
 }
