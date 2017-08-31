@@ -1,6 +1,7 @@
 var admin = require('firebase-admin');
-var serviceAccount = require('../firebase/lhplge-b145e-firebase-adminsdk-n79o5-3a6c295c4b.json');
-var joueurs = require('./joueurs-autonomes.json');
+var serviceAccount = require('../firebase/lhplge-b145e-firebase-adminsdk-n79o5-191c5dd514.json');
+var joueurs = require('./joueurs.json');
+var joueursAutonomes = require('./joueurs-autonomes.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
@@ -8,13 +9,17 @@ admin.initializeApp({
 });
 
 const db = admin.database();
-//const ref = db.child('lhplge-b145e');
 
 const joueursRef = db.ref('joueurs');
 
 for (let joueur of joueurs) {
   let id = joueur.prenom + joueur.nom;
-  id = id.replace(' ').replace('.', '').replace('.', '').replace('-', '').toLowerCase();
+  id = id
+    .replace(' ')
+    .replace('.', '')
+    .replace('.', '')
+    .replace('-', '')
+    .toLowerCase();
 
   joueursRef.child(id).set({
     nom: joueur.nom,
@@ -23,7 +28,31 @@ for (let joueur of joueurs) {
     position: joueur.position,
     age: parseInt(joueur.age),
     caphit: parseInt(joueur.caphit),
-    capFriendlyUrl: joueur.capFriendlyUrl
+    capFriendlyUrl: joueur.capFriendlyUrl,
+    franchise: '',
+    estAutonome: true
+  });
+}
+
+for (let joueur of joueursAutonomes) {
+  let id = joueur.prenom + joueur.nom;
+  id = id
+    .replace(' ')
+    .replace('.', '')
+    .replace('.', '')
+    .replace('-', '')
+    .toLowerCase();
+
+  joueursRef.child(id).set({
+    nom: joueur.nom,
+    prenom: joueur.prenom,
+    equipe: toTitleCase(joueur.equipe.toLowerCase()),
+    position: joueur.position,
+    age: parseInt(joueur.age),
+    caphit: parseInt(joueur.caphit),
+    capFriendlyUrl: joueur.capFriendlyUrl,
+    franchise: '',
+    estAutonome: true
   });
 }
 

@@ -22,7 +22,7 @@ async function main() {
 
   let json = JSON.stringify(joueurs);
 
-  fs.writeFile('joueurs-actifs.json', json, 'utf8');
+  fs.writeFile('joueurs.json', json, 'utf8');
 
   console.log(joueurs.length);
 }
@@ -31,7 +31,11 @@ function extraireTablePrincipale(elm, equipe) {
   let $ = cheerio.load(elm);
 
   $('tbody').each((i, elm) => {
-    let identifiant = $(elm).children().children().first().text();
+    let identifiant = $(elm)
+      .children()
+      .children()
+      .first()
+      .text();
 
     if (identifiant.includes('FORWARDS')) {
       extraireJoueurs(elm, equipe);
@@ -57,13 +61,48 @@ function extraireJoueurs(elm, equipe) {
   $('tr').each((i, elm) => {
     if (i > 0) {
       joueurs.push({
-        nom: extraireNom($(elm).children().first().text()),
-        prenom: extrairePrenom($(elm).children().first().text()),
+        nom: extraireNom(
+          $(elm)
+            .children()
+            .first()
+            .text()
+        ),
+        prenom: extrairePrenom(
+          $(elm)
+            .children()
+            .first()
+            .text()
+        ),
         equipe: equipe,
-        position: determinerPosition($(elm).children().eq(2).first().text()),
-        age: $(elm).children().eq(4).first().text(),
-        caphit: determinerCapHit($(elm).children().eq(5).first().children().first().text()),
-        capFriendlyUrl: extraireUrl($(elm).children().first().children().first().attr('href'))
+        position: determinerPosition(
+          $(elm)
+            .children()
+            .eq(2)
+            .first()
+            .text()
+        ),
+        age: $(elm)
+          .children()
+          .eq(4)
+          .first()
+          .text(),
+        caphit: determinerCapHit(
+          $(elm)
+            .children()
+            .eq(5)
+            .first()
+            .children()
+            .first()
+            .text()
+        ),
+        capFriendlyUrl: extraireUrl(
+          $(elm)
+            .children()
+            .first()
+            .children()
+            .first()
+            .attr('href')
+        )
       });
     }
   });
@@ -79,13 +118,48 @@ function extraireNonRosterPlayers(elm, equipe) {
   $('tr').each((i, elm) => {
     if (i > 1) {
       joueurs.push({
-        nom: extraireNom($(elm).children().first().text()),
-        prenom: extrairePrenom($(elm).children().first().text()),
+        nom: extraireNom(
+          $(elm)
+            .children()
+            .first()
+            .text()
+        ),
+        prenom: extrairePrenom(
+          $(elm)
+            .children()
+            .first()
+            .text()
+        ),
         equipe: equipe,
-        position: determinerPosition($(elm).children().eq(2).first().text()),
-        age: $(elm).children().eq(4).first().text(),
-        caphit: determinerCapHit($(elm).children().eq(5).first().children().first().text()),
-        capFriendlyUrl: extraireUrl($(elm).children().first().children().first().attr('href'))
+        position: determinerPosition(
+          $(elm)
+            .children()
+            .eq(2)
+            .first()
+            .text()
+        ),
+        age: $(elm)
+          .children()
+          .eq(4)
+          .first()
+          .text(),
+        caphit: determinerCapHit(
+          $(elm)
+            .children()
+            .eq(5)
+            .first()
+            .children()
+            .first()
+            .text()
+        ),
+        capFriendlyUrl: extraireUrl(
+          $(elm)
+            .children()
+            .first()
+            .children()
+            .first()
+            .attr('href')
+        )
       });
     }
   });
@@ -96,7 +170,11 @@ function extraireNom(str) {
 }
 
 function extrairePrenom(str) {
-  return str.split(', ')[1].replace('"A"', '').replace('"C"', '').replace(' ', '');
+  return str
+    .split(', ')[1]
+    .replace('"A"', '')
+    .replace('"C"', '')
+    .replace(' ', '');
 }
 
 function determinerPosition(position) {
@@ -116,7 +194,10 @@ function determinerCapHit(str) {
   if (str === 'RFA' || str === 'UFA') {
     return '0';
   }
-  return str.replace(',', '').replace(',', '').replace('$', '');
+  return str
+    .replace(',', '')
+    .replace(',', '')
+    .replace('$', '');
 }
 
 function extraireUrl(url) {

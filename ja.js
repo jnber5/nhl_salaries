@@ -26,8 +26,6 @@ async function main() {
   let json = JSON.stringify(joueurs);
 
   fs.writeFile('joueurs-autonomes.json', json, 'utf8');
-
-  console.log(joueurs);
 }
 
 function extraireTablePrincipale(elm, equipe) {
@@ -43,13 +41,50 @@ function extraireJoueursAutonome(elm, equipe) {
 
   $('tr').each((i, elm) => {
     joueurs.push({
-      nom: extraireNom($(elm).children().first().children().first().children().first().text()),
-      prenom: extrairePrenom($(elm).children().first().children().first().children().first().text()),
+      nom: extraireNom(
+        $(elm)
+          .children()
+          .first()
+          .children()
+          .first()
+          .children()
+          .first()
+          .text()
+      ),
+      prenom: extrairePrenom(
+        $(elm)
+          .children()
+          .first()
+          .children()
+          .first()
+          .children()
+          .first()
+          .text()
+      ),
       equipe: equipe,
-      position: determinerPosition($(elm).children().eq(5).first().text()),
-      age: $(elm).children().eq(4).first().text(),
-      caphit: determinerCapHit($(elm).children().eq(20).first().text()),
-      capFriendlyUrl: extraireUrl($(elm).children().first().children().first().children().first().attr('href'))
+      position: determinerPosition(
+        $(elm)
+          .children()
+          .eq(5)
+          .first()
+          .text()
+      ),
+      age: $(elm)
+        .children()
+        .eq(4)
+        .first()
+        .text(),
+      caphit: 1,
+      capFriendlyUrl: extraireUrl(
+        $(elm)
+          .children()
+          .first()
+          .children()
+          .first()
+          .children()
+          .first()
+          .attr('href')
+      )
     });
   });
 }
@@ -78,7 +113,10 @@ function determinerCapHit(str) {
   if (str === 'RFA' || str === 'UFA') {
     return '0';
   }
-  return str.replace(',', '').replace(',', '').replace('$', '');
+  return str
+    .replace(',', '')
+    .replace(',', '')
+    .replace('$', '');
 }
 
 function extraireUrl(url) {
